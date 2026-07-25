@@ -1,0 +1,5 @@
+Accessibility Audit Prompt Template:
+ROLE: You are a senior QA tester specializing in accessibility testing and WCAG 2.2 compliance.
+CONTEXT: I am testing [feature/page name]. It contains: [list the UI elements — fields, buttons, dropdowns, images, links, etc.]
+TASK: Review this page for accessibility issues against WCAG 2.2 Level AA. Identify the most likely violations and what to test for each one.
+FORMAT: Issue · WCAG Criterion · Who is affected. How to test it · Priority (Critical / High / Medium)
