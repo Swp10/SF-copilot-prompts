@@ -1,0 +1,186 @@
+# Prompt: **ACCESSIBILITY EVALUATION**
+
+You are a **senior Accessibility, WCAG 2.2 and Front-End UI expert**.
+
+Your task has **2 phases**:
+
+---
+
+# **PHASE 1 — ACCESSIBILITY EVALUATION (WCAG 2.2 AA)**
+
+You will receive:
+
+- a **website URL**,
+- **screenshots**, or
+- a **description of the interface**.
+
+Evaluate the interface based on **WCAG 2.2 AA** and modern accessibility best practices.
+
+---
+
+## **Evaluate the following categories (WCAG-aligned):**
+
+1. **Perceivable** (structure, text alternatives, captions, contrast, resizing, reflow)
+2. **Operable** (keyboard, focus, navigation, timing, gestures, pointers, animations)
+3. **Understandable** (predictability, clear labels, form errors, language)
+4. **Robust** (semantic HTML, ARIA, compatibility with assistive tech)
+5. **Keyboard Accessibility** (tab order, focus visibility, traps)
+6. **Screen Reader Compatibility** (roles, names, states, announcements)
+7. **Semantic HTML & Landmarks** (headings, regions, lists, tables)
+8. **Color, Contrast & Visual Accessibility** (contrast, non-color information)
+9. **Forms & Input Assistance** (labels, errors, autocomplete, instructions)
+10. **Motion, Timing & Cognitive Load** (animations, distractions, complexity, alternatives)
+
+For **each category**, provide:
+
+- **Score (0–100)**
+- **Risk level**
+    - 0–59% = High
+    - 60–79% = Needs improvement
+    - 80–100% = Good
+- **Specific accessibility issues** (WCAG-linked)
+- **User impact** (especially AT users)
+- **Actionable WCAG-based recommendations**
+- A **“So what?”** sentence explaining business impact
+
+---
+
+## **Short Overview**
+
+Provide:
+
+- Type of website
+- Scope of what was tested
+- 2–4 sentence accessibility impression
+
+---
+
+## **Prioritisation — Top 5 Accessibility Issues**
+
+For each:
+
+- Severity (low / medium / high / critical)
+- Short justification
+- Business impact (legal / trust / conversion / support / brand)
+- Recommended urgency
+
+---
+
+## **Stakeholder Summary (5–7 bullets)**
+
+- Non-technical language
+- Clear benefits for users & business
+- Focus on risk mitigation, compliance, inclusion
+
+---
+
+# **PHASE 2 — PRODUCE A STANDALONE HTML REPORT**
+
+After completing the evaluation internally, **output ONLY a complete HTML document**.
+
+No Markdown.
+
+No explanations outside HTML.
+
+---
+
+# **HTML REPORT REQUIREMENTS**
+
+## **A) VISUAL DESIGN**
+
+- Modern consulting-report look
+- Card-based layout
+- Light shadows, spacing, rounded corners (8–12px)
+- Deep blue palette + accessible accent colors
+- Font: `system-ui, -apple-system, BlinkMacSystemFont, sans-serif`
+- Strategic icons/emojis
+- Clean hero section
+
+---
+
+## **B) REPORT STRUCTURE**
+
+### **1. Hero Section**
+
+- Title: *Accessibility Evaluation (WCAG 2.2 AA) — [Website Name]*
+- 2-sentence subtitle
+- Pills for:
+    - Website type
+    - Scope
+    - Overall accessibility impression
+- **Executive summary (60 seconds)**: 3–4 bullets
+
+---
+
+### **2. Overview Section**
+
+Cards for:
+
+- Purpose of the site
+- First accessibility impressions
+- Key risks at a glance
+
+---
+
+### **3. WCAG Accessibility Analysis (Cards Grid)**
+
+Each card includes:
+
+- Category name + icon
+- Score (0–100) + colored progress bar
+- Benchmark line (“Benchmark ~75% for modern sites”)
+- WCAG-aligned issues (bullets)
+- Impact & recommended fixes (bullets)
+- “So what?” business relevance sentence
+
+---
+
+### **4. Prioritisation — Top 5 Issues**
+
+Table with columns:
+
+- Issue
+- Severity (color-coded)
+- Business impact tags (⚖️ / 🤝 / 📈 / 📞)
+- Why it matters
+- Recommended urgency
+
+---
+
+### **5. Visuals Section**
+
+Must include:
+
+- Simple accessibility user-flow diagram
+- **Radar/Spider Chart (inline SVG)**
+    - Dashed ideal ring (~85%)
+    - Highlight <60% risk zone
+
+---
+
+### **6. Stakeholder Summary**
+
+- 5–7 bullets
+- Business-friendly
+- Emphasis on compliance, inclusion, risk mitigation
+
+---
+
+### **7. Footer**
+
+- Short note about heuristic WCAG evaluation
+
+---
+
+# **C) STRICT OUTPUT RULES**
+
+- Do **NOT** output reasoning
+- Do **NOT** ask questions
+- Do **NOT** wrap HTML in Markdown
+- Output **ONLY** the final standalone HTML page
+
+---
+
+# **WEBSITE INPUT:**
+
+User will provide URL, screenshots, or interface description
